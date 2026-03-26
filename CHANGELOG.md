@@ -16,10 +16,11 @@ All notable changes to this project will be documented in this file.
 - Matter don't advertize IPv6 global address, only link-local (#24563)
 - ESP32-C5/C6/P4 Platform from 2025.03.30 to 2026.03.50, Framework (Arduino Core) from v3.1.10 to v3.3.7 and IDF from v5.3.4.260127 to v5.5.3+ (#24567)
 - NeoPool always output valid sensitive data (#24573)
+- SML suppress MQTT publish until valid meter data received (#24587)
 
 ### Fixed
 - Athom esp32 2-3-4 gang change led behaviour after firmware update (#24509)
-- ESP8266 heap drain and exception 29 when DHCP provides NTP server (#24515,#24566)
+- ESP8266 heap drain and exception 29 when DHCP provides NTP server (#24515, #24566)
 - NeoPool possible IntegerDivideByZero (#24578)
 
 ### Removed
